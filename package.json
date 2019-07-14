@@ -1,0 +1,26 @@
+{
+    "name": "@cevek/async-context",
+    "version": "1.0.0",
+    "description": "Async context plugin for nodejs and typescript",
+    "main": "dist/index",
+    "types": "dist/index",
+    "scripts": {
+        "test": "ts-node --compiler ttypescript src/test.ts"
+    },
+    "keywords": [
+        "async",
+        "context",
+        "typescript"
+    ],
+    "files": [
+        "dist/index.js",
+        "dist/lib.js"
+    ],
+    "author": "cevek",
+    "license": "ISC",
+    "devDependencies": {
+        "ttypescript": "^1.5.7",
+        "typescript": "^3.5.3",
+        "ts-node": "^8.3.0"
+    }
+}

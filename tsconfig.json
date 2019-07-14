@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "strict": true,
+        "module": "commonjs",
+        "outDir": "dist",
+        "plugins": [{"transform": "./dist/index"}]
+    }
+}
